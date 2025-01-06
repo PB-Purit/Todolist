@@ -1,0 +1,21 @@
+.anime-card {
+    margin: 15px;
+    text-align: center;
+}
+
+.anime-image {
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.anime-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
